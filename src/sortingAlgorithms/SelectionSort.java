@@ -25,7 +25,6 @@ public class SelectionSort {
             System.out.print("\t");
         }
     }
-
     public int[] selectionSort(int[] arr){
         int temp = 0;
         for (int lsi = arr.length - 1; lsi > 0; lsi--) {

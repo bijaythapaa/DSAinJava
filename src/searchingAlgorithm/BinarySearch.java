@@ -15,11 +15,9 @@ public class BinarySearch {
             System.out.print(arr[i]);
             System.out.print("\t");
         }
-
         System.out.println("Enter the value you want to search: ");
         int x = sc.nextInt();
         System.out.println("Your inserted value is: " + x);
-
         int low = 0;
         int high = arr.length - 1;
         int mid;
@@ -32,6 +30,5 @@ public class BinarySearch {
             else
                 x = mid;
         }
-
     }
 }
