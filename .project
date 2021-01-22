@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>DSAinJava</name>
+=======
+	<name>DataStructure</name>
+>>>>>>> 6ad1cd6579e5badc1d87383b293765ab89b15396
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,6 +18,7 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+<<<<<<< HEAD
 	<filteredResources>
 		<filter>
 			<id>1611297602619</id>
@@ -25,4 +30,6 @@
 			</matcher>
 		</filter>
 	</filteredResources>
+=======
+>>>>>>> 6ad1cd6579e5badc1d87383b293765ab89b15396
 </projectDescription>
