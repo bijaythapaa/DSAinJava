@@ -1,16 +1,16 @@
-package singlyLinkedList;
+package singlylinkedlist;
 
 public class Employee {
 	
 	private String firstName;
 	private String lastName;
-	private int Id;
+	private int id;
 	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + Id;
+		result = prime * result + id;
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		return result;
@@ -20,7 +20,7 @@ public class Employee {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
-		Id = id;
+		this.id = id;
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class Employee {
 		if (getClass() != obj.getClass())
 			return false;
 		Employee other = (Employee) obj;
-		if (Id != other.Id)
+		if (id != other.id)
 			return false;
 		if (firstName == null) {
 			if (other.firstName != null)
@@ -49,7 +49,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [firstName=" + firstName + ", lastName=" + lastName + ", Id=" + Id + "]";
+		return "Employee [firstName=" + firstName + ", lastName=" + lastName + ", Id=" + id + "]";
 	}
 	
 	public String getFirstName() {
@@ -65,10 +65,10 @@ public class Employee {
 		this.lastName = lastName;
 	}
 	public int getId() {
-		return Id;
+		return id;
 	}
 	public void setId(int id) {
-		Id = id;
+		this.id = id;
 	}
 	
 }

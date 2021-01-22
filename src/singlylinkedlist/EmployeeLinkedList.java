@@ -1,4 +1,4 @@
-package singlyLinkedList;
+package singlylinkedlist;
 
 public class EmployeeLinkedList {
 	
