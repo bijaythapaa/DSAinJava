@@ -1,4 +1,4 @@
-package enumDataType;
+package enumdatatype;
 
 public enum Planet {
 

@@ -1,4 +1,4 @@
-package arrayListDemo;
+package arraylistdemo;
 
 public class Employee {
 	

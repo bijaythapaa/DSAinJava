@@ -1,4 +1,4 @@
-package vectorDemo;
+package vectordemo;
 
 public class Employee {
 	
