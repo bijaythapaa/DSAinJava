@@ -2,7 +2,7 @@ package array;
 
 import java.util.Scanner;
 
-public class testing {
+public class Testing {
 
     public int fibonacci(int x) {
         if (x < 2) {
@@ -16,11 +16,12 @@ public class testing {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter no of fibonacci series you wanna print: ");
         int x = sc.nextInt();
-        testing test = new testing();
+        Testing test = new Testing();
         while (x>0){
             System.out.print(test.fibonacci(x)+", ");
             x--;
         };
+        sc.close();
 
 //        String x = "bijay";
 //        x = x.concat("thapa");

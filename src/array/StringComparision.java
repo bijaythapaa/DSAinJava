@@ -1,6 +1,6 @@
 package array;
 
-public class stringComparision {
+public class StringComparision {
 
 	// Java program to Compare two strings lexicographically
 
