@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e218dcc-85ef-47fb-9e94-a9479643dde4" name="Default Changelist" comment="shell sort other way">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/array/arrayOne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/searchingAlgorithm/BinarySearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/sortingAlgorithms/BubbleSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/sortingAlgorithms/InsertionSortDemo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/sortingAlgorithms/InsertionSortDemo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/sortingAlgorithms/SelectionSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/arrayOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/RecursiveFactorialCalculation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/RecursiveFibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/SimpleFactorialCalculation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/SimpleFibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searchingAlgorithm/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortingAlgorithms/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortingAlgorithms/InsertionSortDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortingAlgorithms/InsertionSortDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortingAlgorithms/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortingAlgorithms/ShellSortDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShellSortDemo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/arrayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/arrayOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searchingAlgorithm/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searchingAlgorithm/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAlgorithms/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/array/arrayOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/searchingAlgorithm/BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/sortingAlgorithms/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/sortingAlgorithms/InsertionSortDemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/sortingAlgorithms/InsertionSortDemo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/sortingAlgorithms/SelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/sortingAlgorithms/ShellSortDemo1.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3e218dcc-85ef-47fb-9e94-a9479643dde4" name="Default Changelist" comment="shell sort other way" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,17 +15,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1TgvhoJ09fre4cHbslTS5fsF4Bg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -74,6 +37,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Application.arrayOne">
     <configuration name="RecursiveFactorialCalculation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -176,6 +140,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -203,53 +168,27 @@
       <workItem from="1576463336734" duration="1934000" />
       <workItem from="1576684852532" duration="1147000" />
       <workItem from="1577019467560" duration="248000" />
+      <workItem from="1612068782185" duration="75000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="shell sort other way" />
     <option name="LAST_COMMIT_MESSAGE" value="shell sort other way" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1577019715818">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577019715818" />
-    <state width="1366" height="161" key="GridCell.Tab.0.bottom" timestamp="1576686356526">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1366" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576686356526" />
-    <state width="1366" height="161" key="GridCell.Tab.0.center" timestamp="1576686356526">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1366" height="161" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576686356526" />
-    <state width="1366" height="161" key="GridCell.Tab.0.left" timestamp="1576686356526">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1366" height="161" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576686356526" />
-    <state width="1366" height="161" key="GridCell.Tab.0.right" timestamp="1576686356526">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1366" height="161" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576686356526" />
-    <state x="339" y="157" key="run.anything.popup" timestamp="1576686324529">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576686324529" />
   </component>
 </project>
