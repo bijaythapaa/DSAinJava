@@ -35,4 +35,11 @@ public class Employee {
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Employee [firstName=" + firstName + ", id=" + id + ", lastName=" + lastName + "]";
+    }
+
+    
 }
