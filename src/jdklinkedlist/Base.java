@@ -11,7 +11,7 @@ public class Base {
     Employee sanjeevRoka = new Employee("Sanjeev", "Roka", 2);
     Employee ramThapa = new Employee("Ram", "Thapa", 3);
     Employee sitaBasnet = new Employee("Sita", "Basnet", 4);
-    Employee amarThapa = new Employee("amar", "thapa", "20")
+    Employee amarThapa = new Employee("amar", "thapa", 20);
 
     LinkedList<Employee> empList = new LinkedList<>();
     empList.addFirst(bishalUpadhyaya);
