@@ -12,7 +12,7 @@ public class Employee {
         this.id = id;
     }
 
-    public java.lang.String getFirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
@@ -20,7 +20,7 @@ public class Employee {
         this.firstName = firstName;
     }
 
-    public java.lang.String getLastName() {
+    public String getLastName() {
         return lastName;
     }
 
