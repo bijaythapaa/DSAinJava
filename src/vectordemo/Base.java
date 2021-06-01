@@ -11,8 +11,9 @@ public class Base {
 		employeeList.add(new Employee("Santosh", "Paneru", 2));
 		employeeList.add(new Employee("Sanjeev", "Roka", 3));
 		employeeList.add(new Employee("Vijay", "Dhakal", 4));
-		
-		employeeList.forEach(employee -> System.out.println(employee));
+
+//		employeeList.forEach(employee -> System.out.println(employee));
+		employeeList.forEach(System.out::println);
 
 		
 	}
