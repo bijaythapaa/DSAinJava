@@ -56,8 +56,5 @@ public class ArrayStack {
         for (int i = top - 1; i >= 0; i--) {
             System.out.println(stack[i]);
         }
-//        for (Employee e : stack) {
-//            System.out.println(e.toString());
-//        }
     }
 }
