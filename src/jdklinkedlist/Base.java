@@ -12,6 +12,7 @@ public class Base {
         Employee ram = new Employee("Ram", "Kumar", 3);
         Employee sita = new Employee("Sita", "Dev", 4);
         Employee amar = new Employee("Amar", "Singh", 5);
+        Employee shyamEnd = new Employee("Shyam", "KhanEnd", 6);
 
         LinkedList<Employee> empList = new LinkedList<>();
         empList.addFirst(shyam);
@@ -21,10 +22,10 @@ public class Base {
         empList.addFirst(amar);
 
         Iterator<Employee> iter = empList.iterator();
-        System.out.println("HEAD ->");
+        System.out.print("HEAD ->");
         while (iter.hasNext()) {
             System.out.print(iter.next());
-            System.out.print("<==>");
+            System.out.print(" <==> ");
         }
         System.out.println("null");
 
@@ -32,6 +33,33 @@ public class Base {
         //     System.out.println(employee);
         // }
 
+        empList.add(shyamEnd);
+//        empList.addLast(shyamEnd);
+        iter = empList.iterator();
+        System.out.print("HEAD ->");
+        while (iter.hasNext()) {
+            System.out.print(iter.next());
+            System.out.print(" <==> ");
+        }
+        System.out.println("null");
+
+        empList.removeFirst();
+        iter = empList.iterator();
+        System.out.print("HEAD ->");
+        while (iter.hasNext()) {
+            System.out.print(iter.next());
+            System.out.print(" <==> ");
+        }
+        System.out.println("null");
+
+        empList.removeLast();
+        iter = empList.iterator();
+        System.out.print("HEAD ->");
+        while (iter.hasNext()) {
+            System.out.print(iter.next());
+            System.out.print(" <==> ");
+        }
+        System.out.println("null");
     }
 
 }

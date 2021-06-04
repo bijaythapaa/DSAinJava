@@ -32,5 +32,12 @@ public class Base {
         System.out.println(list.removeFromEnd());
         list.printList();
         System.out.println(list.getSize());
+
+//        LinkedListChallenge-One
+        Employee harry = new Employee("Harry", "Smith", 6);
+        System.out.println(list.addBefore(harry, sanjeev));
+        list.printList();
+        System.out.println(list.addBefore(new Employee("Someone", "Else", 111), ram));
+        list.printList();
     }
 }
