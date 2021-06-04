@@ -17,7 +17,7 @@ public class Base {
         list.addToFront(sitaBasnet);
         System.out.println(list.getSize());
         list.printList();
-        list.removeFromFront();
+        System.out.println(list.removeFromFront());
         System.out.println(list.getSize());
         list.printList();
     }

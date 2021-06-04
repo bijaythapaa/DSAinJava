@@ -26,7 +26,7 @@ public class EmployeeLinkedList {
         System.out.print("HEAD -> ");
         while (current != null) {
             System.out.print(current);
-            System.out.println(" -> ");
+            System.out.print(" -> ");
             current = current.getNext();
 
         }
