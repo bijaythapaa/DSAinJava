@@ -2,27 +2,35 @@ package doublylinkedlist;
 
 public class Base {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		Employee bishalUpadhyaya = new Employee("Bishal", "Upadhyaya", 1);
-		Employee sanjeevRoka = new Employee("Sanjeev", "Roka", 2);
-		Employee ramThapa = new Employee("Ram", "Thapa", 3);
-		Employee sitaBasnet = new Employee("Sita", "Basnet", 4);
+        Employee shyam = new Employee("Shyam", "Khan", 1);
+        Employee sanjeev = new Employee("Sanjeev", "Singh", 2);
+        Employee ram = new Employee("Ram", "Kumar", 3);
+        Employee sita = new Employee("Sita", "Dev", 4);
 
-		EmployeeDoublyLinkedList list = new EmployeeDoublyLinkedList();
+        EmployeeDoublyLinkedList list = new EmployeeDoublyLinkedList();
 
-		list.addToFront(bishalUpadhyaya);
-		list.addToFront(sanjeevRoka);
-		list.addToFront(ramThapa);
-		list.addToFront(sitaBasnet);
+        list.addToFront(shyam);
+        list.addToFront(sanjeev);
+        list.addToFront(ram);
+        list.addToFront(sita);
 
-		list.printList();
-		System.out.println(list.getSize());
+        list.printList();
+        System.out.println(list.getSize());
 
-		list.removeFromFront();
-		list.printList();
-		System.out.println(list.getSize());
+        Employee ramKumarEnd = new Employee("Ram", "Kumar", 5);
+        list.addToEnd(ramKumarEnd);
 
-	}
+        list.printList();
+        System.out.println(list.getSize());
 
+        System.out.println(list.removeFromFront());
+        list.printList();
+        System.out.println(list.getSize());
+
+        System.out.println(list.removeFromEnd());
+        list.printList();
+        System.out.println(list.getSize());
+    }
 }
