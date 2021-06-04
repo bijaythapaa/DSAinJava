@@ -7,30 +7,31 @@ public class Base {
 
     public static void main(String[] args) {
 
-    Employee bishalUpadhyaya = new Employee("Bishal", "Upadhyaya", 1);
-    Employee sanjeevRoka = new Employee("Sanjeev", "Roka", 2);
-    Employee ramThapa = new Employee("Ram", "Thapa", 3);
-    Employee sitaBasnet = new Employee("Sita", "Basnet", 4);
-    Employee amarThapa = new Employee("amar", "thapa", 20);
+        Employee shyam = new Employee("Shyam", "Khan", 1);
+        Employee sanjeev = new Employee("Sanjeev", "Singh", 2);
+        Employee ram = new Employee("Ram", "Kumar", 3);
+        Employee sita = new Employee("Sita", "Dev", 4);
+        Employee amar = new Employee("Amar", "Singh", 5);
 
-    LinkedList<Employee> empList = new LinkedList<>();
-    empList.addFirst(bishalUpadhyaya);
-    empList.addFirst(sanjeevRoka);
-    empList.addFirst(ramThapa);
-    empList.addFirst(sitaBasnet);
+        LinkedList<Employee> empList = new LinkedList<>();
+        empList.addFirst(shyam);
+        empList.addFirst(sanjeev);
+        empList.addFirst(ram);
+        empList.addFirst(sita);
+        empList.addFirst(amar);
 
-    Iterator iter = empList.iterator();
-    System.out.println("HEAD ->");
-    while (iter.hasNext()) {
-        System.out.print(iter.next());
-        System.out.print("<==>");
+        Iterator<Employee> iter = empList.iterator();
+        System.out.println("HEAD ->");
+        while (iter.hasNext()) {
+            System.out.print(iter.next());
+            System.out.print("<==>");
+        }
+        System.out.println("null");
+
+        // for(Employee employee:empList){
+        //     System.out.println(employee);
+        // }
+
     }
-    System.out.println("null");
 
-    // for(Employee employee:empList){
-    //     System.out.println(employee);
-    // }
-        
-    }
-    
 }
