@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3e218dcc-85ef-47fb-9e94-a9479643dde4" name="Default Changelist" comment="shell sort other way">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/jdklinkedlist/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdklinkedlist/Base.java" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/src/singlylinkedlist/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singlylinkedlist/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/singlylinkedlist/EmployeeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singlylinkedlist/EmployeeLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vectordemo/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectordemo/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vectordemo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectordemo/Employee.java" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,6 @@
       <recent name="$PROJECT_DIR$/src/resources" />
     </key>
   </component>
-<<<<<<< Updated upstream
   <component name="RunManager" selected="Application.Base (2)">
     <configuration name="Base (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singlylinkedlist.Base" />
@@ -90,14 +86,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="singlylinkedlist.*" />
-=======
-  <component name="RunManager" selected="Application.Base">
-    <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singlylinkedlist.Base" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singlylinkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,27 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchingalgorithm.BinarySearch" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searchingalgorithm.*" />
->>>>>>> Stashed changes
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< Updated upstream
     <configuration name="Base (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdklinkedlist.Base" />
-=======
-    <configuration name="DemoOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locale.DemoOne" />
->>>>>>> Stashed changes
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -137,21 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< Updated upstream
     <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="doublylinkedlist.Base" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="doublylinkedlist.*" />
-=======
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.Main" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
->>>>>>> Stashed changes
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,21 +119,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< Updated upstream
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searchingalgorithm.BinarySearch" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="searchingalgorithm.*" />
-=======
-    <configuration name="StackChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.StackChallenge" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchingalgorithm.BinarySearch" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
->>>>>>> Stashed changes
+          <option name="PATTERN" value="searchingalgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,15 +173,9 @@
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< Updated upstream
         <item itemvalue="Application.Base (2)" />
         <item itemvalue="Application.Base" />
         <item itemvalue="Application.Base (1)" />
-=======
-        <item itemvalue="Application.Base" />
-        <item itemvalue="Application.StackChallenge" />
-        <item itemvalue="Application.Main" />
->>>>>>> Stashed changes
         <item itemvalue="Application.VehicleImpl" />
         <item itemvalue="Application.BinarySearch" />
       </list>
@@ -275,13 +233,7 @@
       <workItem from="1617937231776" duration="255000" />
       <workItem from="1618125047095" duration="57000" />
       <workItem from="1618292599957" duration="760000" />
-<<<<<<< Updated upstream
-      <workItem from="1622509728061" duration="374000" />
-      <workItem from="1622597184748" duration="6450000" />
-      <workItem from="1622770578689" duration="262000" />
-=======
       <workItem from="1622509728061" duration="10044000" />
->>>>>>> Stashed changes
     </task>
     <servers />
   </component>
