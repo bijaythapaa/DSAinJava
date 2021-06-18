@@ -1,4 +1,4 @@
-package jdklinkedlist;
+package linkedlistjdk;
 
 public class Employee {
 

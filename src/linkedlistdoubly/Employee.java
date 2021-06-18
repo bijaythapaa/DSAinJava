@@ -1,4 +1,4 @@
-package doublylinkedlist;
+package linkedlistdoubly;
 
 public class Employee {
 

@@ -1,4 +1,4 @@
-package singlylinkedlist;
+package linkedlistsingly;
 
 /**
  * @Author Bijay Thapa
