@@ -28,7 +28,7 @@ public class ArrayQueue {
         if (back < queue.length - 1) back++;
         else back = 0;
 //        and incremented the back position.
-        back++;
+//        back++;
     }
 
     public Employee remove() {
