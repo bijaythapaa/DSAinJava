@@ -17,10 +17,11 @@ public class Testing {
         System.out.println("Enter no of fibonacci series you wanna print: ");
         int x = sc.nextInt();
         Testing test = new Testing();
-        while (x>0){
-            System.out.print(test.fibonacci(x)+", ");
+        while (x > 0) {
+            System.out.print(test.fibonacci(x) + ", ");
             x--;
-        };
+        }
+        ;
         sc.close();
 
 //        String x = "bijay";
