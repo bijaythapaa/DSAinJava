@@ -1,4 +1,4 @@
-package HashTablesArrayImpl;
+package hashtablesarrayimpl;
 
 /**
  * @Author Bijay Thapa
