@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3e218dcc-85ef-47fb-9e94-a9479643dde4" name="Default Changelist" comment="shell sort other way">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doublylinkedlist/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistdoubly/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doublylinkedlist/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistdoubly/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doublylinkedlist/EmployeeDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistdoubly/EmployeeDoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doublylinkedlist/EmployeeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistdoubly/EmployeeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdklinkedlist/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistjdk/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdklinkedlist/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistjdk/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singlylinkedlist/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistsingly/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singlylinkedlist/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistsingly/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singlylinkedlist/EmployeeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistsingly/EmployeeLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singlylinkedlist/EmployeeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistsingly/EmployeeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singlylinkedlist/IntegerLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistsingly/IntegerLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singlylinkedlist/IntegerNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlistsingly/IntegerNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTablesArrayImpl/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashtablesarrayimpl/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTablesArrayImpl/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashtablesarrayimpl/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTablesArrayImpl/SimpleHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashtablesarrayimpl/SimpleHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/Testing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -67,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring-Boot-CLI-WorkSpace/SpringReactiveRedis/basics" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,72 +86,7 @@
       <recent name="queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Base (3)">
-    <configuration name="Base (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singlylinkedlist.Base" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singlylinkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Base (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdklinkedlist.Base" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdklinkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Base (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.Base" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlistdoubly.Base" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlistdoubly.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlistsingly.Base" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlistsingly.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QuestionFour">
     <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlistjdk.Base" />
       <module name="DataStructure" />
@@ -169,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchingalgorithm.BinarySearch" />
+    <configuration name="QuestionFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.QuestionFour" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searchingalgorithm.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +113,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfacestaticdefaultmethod.VehicleImpl" />
+    <configuration name="QuestionOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.QuestionOne" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfacestaticdefaultmethod.*" />
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.QuestionThree" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionThreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.QuestionThreeDemo" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.QuestionTwo" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Base (3)" />
-        <item itemvalue="Application.Base" />
-        <item itemvalue="Application.Base (2)" />
-        <item itemvalue="Application.Base (1)" />
-        <item itemvalue="Application.VehicleImpl" />
+        <item itemvalue="Application.QuestionFour" />
+        <item itemvalue="Application.QuestionThreeDemo" />
+        <item itemvalue="Application.QuestionThree" />
+        <item itemvalue="Application.QuestionTwo" />
+        <item itemvalue="Application.QuestionOne" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +243,17 @@
       <workItem from="1622509728061" duration="10044000" />
       <workItem from="1623118973183" duration="1692000" />
       <workItem from="1623568054150" duration="2284000" />
-      <workItem from="1624009087101" duration="333000" />
+      <workItem from="1624009087101" duration="1203000" />
+      <workItem from="1624062789710" duration="167000" />
+      <workItem from="1624848187795" duration="2201000" />
+      <workItem from="1624928446722" duration="2676000" />
+      <workItem from="1627275479631" duration="2005000" />
+      <workItem from="1627482644697" duration="98000" />
+      <workItem from="1628357818946" duration="137000" />
+      <workItem from="1628390982372" duration="150000" />
+      <workItem from="1629717997956" duration="10613000" />
+      <workItem from="1629820481574" duration="5035000" />
+      <workItem from="1629855770963" duration="648000" />
     </task>
     <servers />
   </component>
@@ -307,6 +287,16 @@
           <properties class="java.lang.ClassCastException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/Testing.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/Testing.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
