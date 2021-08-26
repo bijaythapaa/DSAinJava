@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3e218dcc-85ef-47fb-9e94-a9479643dde4" name="Default Changelist" comment="shell sort other way">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/ArrayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ArrayOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/QuestionFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/QuestionFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/QuestionSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/QuestionSix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +85,9 @@
       <recent name="queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuestionSix">
-    <configuration name="QuestionFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.QuestionFive" />
+  <component name="RunManager" selected="Application.FibonacciFor">
+    <configuration name="ArrayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ArrayOne" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.QuestionFour" />
+    <configuration name="FactorialRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FactorialRecursion" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionFourDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.QuestionFourDemo" />
+    <configuration name="FibonacciFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FibonacciFor" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionSix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.QuestionSix" />
+    <configuration name="FibonacciRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FibonacciRecursion" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionThreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.QuestionThreeDemo" />
+    <configuration name="FibonacciWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FibonacciWhile" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuestionSix" />
-        <item itemvalue="Application.QuestionFive" />
-        <item itemvalue="Application.QuestionFourDemo" />
-        <item itemvalue="Application.QuestionFour" />
-        <item itemvalue="Application.QuestionThreeDemo" />
+        <item itemvalue="Application.FibonacciFor" />
+        <item itemvalue="Application.FibonacciWhile" />
+        <item itemvalue="Application.FibonacciRecursion" />
+        <item itemvalue="Application.FactorialRecursion" />
+        <item itemvalue="Application.ArrayOne" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +240,9 @@
       <workItem from="1629717997956" duration="10613000" />
       <workItem from="1629820481574" duration="5035000" />
       <workItem from="1629855770963" duration="2487000" />
-      <workItem from="1629890978507" duration="3139000" />
+      <workItem from="1629890978507" duration="3426000" />
+      <workItem from="1629905847783" duration="5335000" />
+      <workItem from="1629941701118" duration="4412000" />
     </task>
     <servers />
   </component>
