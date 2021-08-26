@@ -30,5 +30,17 @@ public class QuestionSix {
 
     public static void main(String[] args) {
         System.out.println(findPOE(new int[]{3, 4, 5, 10}));
+
+        String[] arrData = {"Alpha", "Beta", "Gamma", "Delta", "Sigma"};
+        for (String strTemp : arrData) {
+            System.out.println(strTemp);
+        }
+        int[] arrInt = {2, 5, 6, 7, 3, 9};
+        for (int i = 0; i < arrInt.length; i++) {
+            System.out.println(arrInt[i]);
+        }
+        for (int x : arrInt) {
+            System.out.println(x);
+        }
     }
 }

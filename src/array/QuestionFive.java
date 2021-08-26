@@ -12,7 +12,7 @@ public class QuestionFive {
         if (first == null || last == null) return null;
         if (first.length == 0 || last.length == 0) return new int[0];
         int min = (first.length < last.length) ? first.length : last.length;
-        int[] newChar = new int[min];
+        int[] newChar = new int[]{};
         int[] a, b;
         if (min == first.length) {
             a = first;
