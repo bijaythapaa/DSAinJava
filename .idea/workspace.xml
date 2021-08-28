@@ -82,7 +82,7 @@
       <recent name="queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArmstrongNumber">
+  <component name="RunManager" selected="Application.StarPattern">
     <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="randompractise.ArmstrongNumber" />
       <module name="DataStructure" />
@@ -98,19 +98,6 @@
     </configuration>
     <configuration name="FibonacciFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.FibonacciFor" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.FibonacciRecursion" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -148,6 +135,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StarPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.StarPattern" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="stringComparision" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.stringComparision" />
       <module name="DataStructure" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarPattern" />
         <item itemvalue="Application.ArmstrongNumber" />
         <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.FibonacciFor" />
         <item itemvalue="Application.FibonacciWhile" />
-        <item itemvalue="Application.FibonacciRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +241,11 @@
       <workItem from="1629905847783" duration="5335000" />
       <workItem from="1629941701118" duration="5412000" />
       <workItem from="1629993290561" duration="223000" />
-      <workItem from="1630027611989" duration="3673000" />
+      <workItem from="1630027611989" duration="4328000" />
+      <workItem from="1630062067404" duration="103000" />
+      <workItem from="1630063739181" duration="652000" />
+      <workItem from="1630080618347" duration="1486000" />
+      <workItem from="1630166072211" duration="599000" />
     </task>
     <servers />
   </component>
