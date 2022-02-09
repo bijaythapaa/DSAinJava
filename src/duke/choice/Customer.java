@@ -11,6 +11,11 @@ public class Customer {
 
     private Clothing[] items;
 
+    public Customer(String name, int measurement) {
+        this.name = name;
+        setSize(measurement);
+    }
+
     public void addItems(Clothing[] items) {
         this.items = items;
     }
@@ -21,17 +26,18 @@ public class Customer {
 
     public double getTotalClothingCloths() {
         double total = 0.0;
-        for (Clothing item : clothing) {
-            // if (c1.getSize().equals(item.getSize())) {
-            // total += total + item.getPrice();
-            // System.out.println("Item = Description: " + item.getDescription() + ", Price:
-            // " + item.getPrice()
-            // + ", Size: " + item.getSize());
-            // total = total + (total * tax);
-            if (total > 15)
-                break;
-            // }
-        }
+        // for (Clothing item : clothing) {
+        // if (c1.getSize().equals(item.getSize())) {
+        // total += total + item.getPrice();
+        // System.out.println("Item = Description: " + item.getDescription() + ", Price:
+        // " + item.getPrice()
+        // + ", Size: " + item.getSize());
+        // total = total + (total * tax);
+        // if (total > 15)
+        // break;
+        // }
+        // }
+        return total;
     }
 
     public String getName() {
