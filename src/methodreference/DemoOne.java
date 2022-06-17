@@ -1,0 +1,5 @@
+package methodreference;
+
+class DemoOne {
+
+}
