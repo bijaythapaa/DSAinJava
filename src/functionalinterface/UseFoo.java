@@ -19,6 +19,16 @@ public class UseFoo {
 
         Function<String, String> function = parameter -> parameter + " from Lambda";
         System.out.println(useFoo.add("Message ", function));
+
+        // Instantiate Functional Interfaces with Lambda Expressions
+        Foo fooOne = parameter -> parameter + " from Foo";
+        // over an inner class
+        Foo fooTwo = new Foo() {
+            @Override
+            public String method(String string) {
+                return string + " from Foo as inner class";
+            }
+        };
     }
 
     /*
