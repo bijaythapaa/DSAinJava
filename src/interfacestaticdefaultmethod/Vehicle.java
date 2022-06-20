@@ -12,6 +12,5 @@ public interface Vehicle {
     public static void main(String[] args) {
         String produce = Vehicle.producer();
         System.out.println(produce);
-
     }
 }

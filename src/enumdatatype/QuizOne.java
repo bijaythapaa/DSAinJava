@@ -54,6 +54,6 @@ enum Emotion implements Emoticonable {
 public class QuizOne {
     public static void main(String[] args) {
         System.out.println("Good mood, laughing " + Mood.GOOD + " " + Emotion.LAUGHING);
-        System.out.println("Good mood, crying " + Mood.GOOD + " " + Emotion.CRYING);
+        System.out.println("Good mood, crying " + Mood.BAD + " " + Emotion.CRYING);
     }
 }
