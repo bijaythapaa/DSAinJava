@@ -18,17 +18,19 @@ public class UseFoo {
 //        String result = useFoo.add("Message", foo);
 
         Function<String, String> function = parameter -> parameter + " from Lambda";
+        System.out.println(function);
         System.out.println(useFoo.add("Message ", function));
+        System.out.println(function.apply("Message again"));
 
         // Instantiate Functional Interfaces with Lambda Expressions
-        Foo fooOne = parameter -> parameter + " from Foo";
+//        Foo fooOne = parameter -> parameter + " from Foo";
         // over an inner class
-        Foo fooTwo = new Foo() {
-            @Override
-            public String method(String string) {
-                return string + " from Foo as inner class";
-            }
-        };
+//        Foo fooTwo = new Foo() {
+//            @Override
+//            public String method(String string) {
+//                return string + " from Foo as inner class";
+//            }
+//        };
     }
 
     /*
