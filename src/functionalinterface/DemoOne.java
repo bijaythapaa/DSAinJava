@@ -78,7 +78,7 @@ public class DemoOne {
     public static void main(String[] args) {
         // lambda that implements Predicate<String>
         Predicate<String> predicate = s -> s.length() == 3;
-//        System.out.println(predicate.test("ram"));
+        System.out.println(predicate.test("ram"));
 
 
         // implementing Consumer<String>
