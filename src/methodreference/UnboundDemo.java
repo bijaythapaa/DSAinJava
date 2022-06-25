@@ -56,5 +56,10 @@ public class UnboundDemo {
         BiFunction<String, String, Integer> biFunction = String::indexOf;
         System.out.println("index of the word in a Sentence is: " +
                 biFunction.apply("The hallway smelt of boiled cabbage and old rag mats", "cabbage"));
+
+        /*
+        * A good way to mentally reconstruct the lambda written in the classical way is :
+        * to check the type of this Method Reference.
+        */
     }
 }
