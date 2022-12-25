@@ -18,5 +18,23 @@ public class FromCollectionOrIterator {
         Stream<String> stream = StreamSupport.stream(spliterator, parallel);
         List<String> list = stream.collect(Collectors.toList());
         System.out.println(list);
+
+//        List<String> valueFieldsRequested = new ArrayList<>() {{
+//            add("allowedAmount");
+//            add("paidAmount");
+//        }};
+//        List<String> overrideCardinalityInclusionList = new ArrayList<String>() {
+//            {
+//                add("intMemberId");
+//                add("intClaimNumber");
+//                add("combineIntegerDate");
+//                add("intProviderId");
+//                add("medicalAndRxClaimsScripted");
+//                add("claimsByThousand");
+//                add("intEmployeeId");
+//            }
+//        };
+//        boolean isOverrideCardinality = valueFieldsRequested.stream().anyMatch(overrideCardinalityInclusionList::contains);
+//        System.out.println("isOverrideCardinality = " + isOverrideCardinality);
     }
 }
