@@ -36,7 +36,7 @@ class Product {
 
         // Lambdas cannot modify variables defined outside their body.
         // They can read them, as long as, they are final i.e. immutable.
-        // This process of accessing variable is called "capturing": labmdas cannot capture variables, they capture
+        // This process of accessing variable is called "capturing": lambdas cannot capture variables, they capture
         // only values. A final variable is in fact a value.
 
         /*You have noted that the error message tells us that the variable can be final,
@@ -64,7 +64,7 @@ class Product {
 }
 
 public class DemoOne {
-     static List<String> retainStringsOfLengthThree(List<String> strings) {
+    static List<String> retainStringsOfLengthThree(List<String> strings) {
         Predicate<String> stringPredicate = s -> s.length() == 3;
         List<String> stringsOfLengthThree = new ArrayList<>();
         for (String s : strings) {
