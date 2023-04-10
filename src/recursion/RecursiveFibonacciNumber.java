@@ -19,7 +19,6 @@ public class RecursiveFibonacciNumber {
         int val = sc.nextInt();
         RecursiveFibonacciNumber efn = new RecursiveFibonacciNumber();
         System.out.println("Your fibonacci numbers are: ");
-        int count = 0;
         for (int i = 1; i <= val; i++) {
             int k = efn.rFib(i);
             System.out.print(k + ", ");
