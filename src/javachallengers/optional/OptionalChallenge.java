@@ -11,8 +11,8 @@ import java.util.stream.Collectors;
 
 public class OptionalChallenge {
 
-    static String finalZionValue = "";
-    static int matrixCount = 0;
+    private static String finalZionValue = "";
+    private static int matrixCount = 0;
 
     public static void main(String... matrix) {
         Optional<String> optFromMatrix = Optional.ofNullable(finalZionValue);
@@ -38,7 +38,7 @@ public class OptionalChallenge {
 
     }
 
-    static String getVisionFromOracle() {
+    private static String getVisionFromOracle() {
         matrixCount++;
         finalZionValue = "KeyMaker";
         return "Architect";
