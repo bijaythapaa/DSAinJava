@@ -12,11 +12,11 @@ public class SimpleFactorialCalculation {
         System.out.println("Your Value is: " + val);
         if (val == 0)
             System.out.println("Factorial of" + val + " is: " + x);
-        else if (val<0)
+        else if (val < 0)
             System.out.println("Factorial of negative number is undefined !!");
         else
             for (int i = 1; i <= val; i++)
-            x = x * i;
-            System.out.println("Factorial of " + val + " is: " + x);
+                x = x * i;
+        System.out.println("Factorial of " + val + " is: " + x);
     }
 }
