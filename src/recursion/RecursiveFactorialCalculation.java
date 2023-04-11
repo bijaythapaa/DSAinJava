@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class RecursiveFactorialCalculation {
 
     private int recursiveFactorial(int a) {
-        if (a == 0)
+        if (a <= 1)
             return 1;
         return a * recursiveFactorial(a - 1);
     }
@@ -14,7 +14,7 @@ public class RecursiveFactorialCalculation {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your value: ");
         int val = sc.nextInt();
-		System.out.println("Your Value is: " + val);
+        System.out.println("Your Value is: " + val);
         RecursiveFactorialCalculation rfc = new RecursiveFactorialCalculation();
         if (val == 0)
             System.out.println("Factorial of " + val + " is: " + 1);
