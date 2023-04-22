@@ -21,7 +21,6 @@ public class Testing {
             System.out.print(test.fibonacci(x) + ", ");
             x--;
         }
-        ;
         sc.close();
 
 //        String x = "bijay";

@@ -11,14 +11,14 @@ public class RecursiveBinarySearch {
         System.out.println(search(array, 94, 0, array.length));
     }
 
-    private static int search(int[] array, int target, int s, int e) {
+    private static int search(int[] array, int target, int start, int end) {
 //        int s = 0, e = array.length - 1;
-        if (s > e) {
+        if (start > end) {
             return -1;
         }
-        int m = s + (e - s) / 2;
-        if (array[m] == target) return m;
-        if (target < array[m]) return search(array, target, s, m - 1);
-        return search(array, target, m + 1, e);
+        int mid = start + (end - start) / 2;
+        if (array[mid] == target) return mid;
+        if (target < array[mid]) return search(array, target, start, mid - 1);
+        return search(array, target, m + 1, end);
     }
 }
