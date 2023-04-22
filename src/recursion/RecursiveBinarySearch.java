@@ -19,6 +19,6 @@ public class RecursiveBinarySearch {
         int mid = start + (end - start) / 2;
         if (array[mid] == target) return mid;
         if (target < array[mid]) return search(array, target, start, mid - 1);
-        return search(array, target, m + 1, end);
+        return search(array, target, mid + 1, end);
     }
 }
